@@ -1,6 +1,8 @@
 ## DOX Notify
 This is a fork from nd-notify which was a fork from mythic notify. All credit at this point goes to them. 
 
+---NOT READY FOR CONSUMPTION YET---
+
 ## Features
 - Nice Styling
 - Police Notifications
