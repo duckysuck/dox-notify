@@ -13,7 +13,7 @@ This is a fork from nd-notify which was a fork from mythic notify. All credit at
 ## How to Use
 ```lua
 -- Client Side
-TriggerEvent('nd-notify:client:sendAlert', { 
+TriggerEvent('dox-notify:client:sendAlert', { 
     type = 'primary', -- Types = [primary, success, error, police]
     text = 'This is a test primary notification!',
     length = 3000,
@@ -23,7 +23,7 @@ TriggerEvent('nd-notify:client:sendAlert', {
 
 ```lua
 -- Server Side
-TriggerClientEvent('nd-notify:client:sendAlert', source, { 
+TriggerClientEvent('dox-notify:client:sendAlert', source, { 
     type = 'primary', -- Types = [primary, success, error, police]
     text = 'This is a test primary notification!',
     length = 3000,
